@@ -1,0 +1,100 @@
+2020-08-24T20:05:02.437587+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:440:9)
+2020-08-24T20:05:02.437588+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:05:02.437589+00:00 app[web.1]: at TLSSocket.emit (events.js:315:20)
+2020-08-24T20:05:02.437590+00:00 app[web.1]: at net.js:674:12
+2020-08-24T20:05:02.437590+00:00 app[web.1]: at TCP.done (_tls_wrap.js:567:7)]
+2020-08-24T20:05:02.437591+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+2020-08-24T20:05:02.437591+00:00 app[web.1]: at Pool.emit (events.js:315:20)
+2020-08-24T20:05:02.437592+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:562:14
+2020-08-24T20:05:02.437592+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:1009:9
+2020-08-24T20:05:02.437593+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+2020-08-24T20:05:02.437593+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:101:9
+2020-08-24T20:05:02.437593+00:00 app[web.1]: at _callback (/app/node_modules/mongodb/lib/core/connection/connection.js:329:7)
+2020-08-24T20:05:02.437594+00:00 app[web.1]: at Connection.errorHandler (/app/node_modules/mongodb/lib/core/connection/connection.js:344:7)
+2020-08-24T20:05:02.437594+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:05:02.437594+00:00 app[web.1]: at Connection.emit (events.js:315:20)
+2020-08-24T20:05:02.437595+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:438:12)
+2020-08-24T20:05:02.437595+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:05:02.437596+00:00 app[web.1]: at TLSSocket.emit (events.js:315:20)
+2020-08-24T20:05:02.437596+00:00 app[web.1]: at net.js:674:12
+2020-08-24T20:05:02.437596+00:00 app[web.1]: at TCP.done (_tls_wrap.js:567:7)
+2020-08-24T20:05:24.461492+00:00 heroku[router]: at=info method=GET path="/api/docs/ping" host=editorbackend.herokuapp.com request_id=e2a9f393-7ea4-4980-819d-2e812a560913 fwd="73.231.178.171" dyno=web.1 connect=1ms service=9ms status=200 bytes=231 protocol=https
+2020-08-24T20:06:03.997569+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=5fbfca79-ac37-4ec5-b4c3-87a8d9af922f fwd="73.231.178.171" dyno=web.1 connect=1ms service=30000ms status=503 bytes=0 protocol=https
+2020-08-24T20:10:11.000000+00:00 app[api]: Build started by user maksat_zhazbaev@utexas.edu
+2020-08-24T20:10:38.503533+00:00 app[api]: Deploy dad87924 by user maksat_zhazbaev@utexas.edu
+2020-08-24T20:10:38.503533+00:00 app[api]: Release v11 created by user maksat_zhazbaev@utexas.edu
+2020-08-24T20:10:38.666050+00:00 heroku[web.1]: Restarting
+2020-08-24T20:10:38.679607+00:00 heroku[web.1]: State changed from up to starting
+2020-08-24T20:10:39.521085+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-08-24T20:10:39.612053+00:00 heroku[web.1]: Process exited with status 143
+2020-08-24T20:10:40.000000+00:00 app[api]: Build succeeded
+2020-08-24T20:10:42.211666+00:00 heroku[web.1]: Starting process with command `node server.js`
+2020-08-24T20:10:44.364888+00:00 app[web.1]: Maksat, Server is running on port 30528 !
+2020-08-24T20:10:44.407802+00:00 app[web.1]: (node:4) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2020-08-24T20:10:44.466585+00:00 heroku[web.1]: State changed from starting to up
+2020-08-24T20:10:45.015496+00:00 app[web.1]: MONGO DB CONNECTION ERROR -->  MongoNetworkError: failed to connect to server [custombackend1-shard-00-00.wyluy.mongodb.net:27017] on first connect [MongoNetworkError: connection 5 to custombackend1-shard-00-00.wyluy.mongodb.net:27017 closed
+2020-08-24T20:10:45.015526+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:440:9)
+2020-08-24T20:10:45.015527+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:10:45.015527+00:00 app[web.1]: at TLSSocket.emit (events.js:315:20)
+2020-08-24T20:10:45.015527+00:00 app[web.1]: at net.js:674:12
+2020-08-24T20:10:45.015528+00:00 app[web.1]: at TCP.done (_tls_wrap.js:567:7)]
+2020-08-24T20:10:45.015528+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+2020-08-24T20:10:45.015528+00:00 app[web.1]: at Pool.emit (events.js:315:20)
+2020-08-24T20:10:45.015529+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:562:14
+2020-08-24T20:10:45.015529+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:1009:9
+2020-08-24T20:10:45.015530+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+2020-08-24T20:10:45.015530+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:101:9
+2020-08-24T20:10:45.015530+00:00 app[web.1]: at _callback (/app/node_modules/mongodb/lib/core/connection/connection.js:329:7)
+2020-08-24T20:10:45.015530+00:00 app[web.1]: at Connection.errorHandler (/app/node_modules/mongodb/lib/core/connection/connection.js:344:7)
+2020-08-24T20:10:45.015531+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:10:45.015531+00:00 app[web.1]: at Connection.emit (events.js:315:20)
+2020-08-24T20:10:45.015531+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:438:12)
+2020-08-24T20:10:45.015531+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:10:45.015532+00:00 app[web.1]: at TLSSocket.emit (events.js:315:20)
+2020-08-24T20:10:45.015532+00:00 app[web.1]: at net.js:674:12
+2020-08-24T20:10:45.015532+00:00 app[web.1]: at TCP.done (_tls_wrap.js:567:7)
+2020-08-24T20:11:02.713898+00:00 heroku[router]: at=info method=GET path="/api/docs/ping" host=editorbackend.herokuapp.com request_id=462c1b42-f612-4f0e-8b6a-506515ec5b1e fwd="73.231.178.171" dyno=web.1 connect=0ms service=25ms status=304 bytes=150 protocol=https
+2020-08-24T20:11:09.445900+00:00 heroku[router]: at=info method=GET path="/api/docs/info" host=editorbackend.herokuapp.com request_id=24505d4b-b07c-4a95-a1bf-24776f9d39a8 fwd="73.231.178.171" dyno=web.1 connect=1ms service=3ms status=200 bytes=528 protocol=https
+2020-08-24T20:11:16.710795+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=75d00163-2a9f-4740-a177-06f64dc966ac fwd="73.231.178.171" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2020-08-24T20:14:26.159245+00:00 heroku[router]: at=info method=GET path="/api/docs/info" host=editorbackend.herokuapp.com request_id=60d7401d-0150-41b5-b0cd-245dfac9b43a fwd="73.231.178.171" dyno=web.1 connect=1ms service=3ms status=304 bytes=151 protocol=https
+2020-08-24T20:14:59.711252+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=fda994dd-8c48-4943-acbf-77c20633ee0a fwd="73.231.178.171" dyno=web.1 connect=1ms service=30000ms status=503 bytes=0 protocol=https
+2020-08-24T20:21:45.644597+00:00 heroku[router]: at=info method=GET path="/api/docs/info" host=editorbackend.herokuapp.com request_id=be2e3788-58e9-48c6-811f-14959f44ce4c fwd="73.231.178.171" dyno=web.1 connect=0ms service=5ms status=304 bytes=151 protocol=https
+2020-08-24T20:22:20.331225+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=02fb03b1-dabf-4341-87ab-dd5de285d72b fwd="73.231.178.171" dyno=web.1 connect=0ms service=30014ms status=503 bytes=0 protocol=https
+2020-08-24T20:23:16.278365+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=1b15ed41-261d-4233-b10a-92508f6f7581 fwd="73.231.178.171" dyno=web.1 connect=0ms service=30001ms status=503 bytes=0 protocol=https
+2020-08-24T20:28:06.000000+00:00 app[api]: Build started by user maksat_zhazbaev@utexas.edu
+2020-08-24T20:28:29.565338+00:00 app[api]: Deploy 77e2c986 by user maksat_zhazbaev@utexas.edu
+2020-08-24T20:28:29.565338+00:00 app[api]: Release v12 created by user maksat_zhazbaev@utexas.edu
+2020-08-24T20:28:29.742265+00:00 heroku[web.1]: Restarting
+2020-08-24T20:28:29.756484+00:00 heroku[web.1]: State changed from up to starting
+2020-08-24T20:28:30.895141+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-08-24T20:28:31.000000+00:00 app[api]: Build succeeded
+2020-08-24T20:28:31.006771+00:00 heroku[web.1]: Process exited with status 143
+2020-08-24T20:28:34.778098+00:00 heroku[web.1]: Starting process with command `node server.js`
+2020-08-24T20:28:39.154420+00:00 app[web.1]: Maksat, Server is running on port 18808 !
+2020-08-24T20:28:39.238049+00:00 app[web.1]: (node:4) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2020-08-24T20:28:39.775398+00:00 heroku[web.1]: State changed from starting to up
+2020-08-24T20:28:39.912587+00:00 app[web.1]: MONGO DB CONNECTION ERROR -->  MongoNetworkError: failed to connect to server [custombackend1-shard-00-00.wyluy.mongodb.net:27017] on first connect [MongoNetworkError: connection 5 to custombackend1-shard-00-00.wyluy.mongodb.net:27017 closed
+2020-08-24T20:28:39.912613+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:440:9)
+2020-08-24T20:28:39.912614+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:28:39.912614+00:00 app[web.1]: at TLSSocket.emit (events.js:315:20)
+2020-08-24T20:28:39.912615+00:00 app[web.1]: at net.js:674:12
+2020-08-24T20:28:39.912615+00:00 app[web.1]: at TCP.done (_tls_wrap.js:567:7)]
+2020-08-24T20:28:39.912616+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:438:11)
+2020-08-24T20:28:39.912616+00:00 app[web.1]: at Pool.emit (events.js:315:20)
+2020-08-24T20:28:39.912616+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:562:14
+2020-08-24T20:28:39.912617+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:1009:9
+2020-08-24T20:28:39.912617+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:75:5)
+2020-08-24T20:28:39.912617+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:101:9
+2020-08-24T20:28:39.912618+00:00 app[web.1]: at _callback (/app/node_modules/mongodb/lib/core/connection/connection.js:329:7)
+2020-08-24T20:28:39.912618+00:00 app[web.1]: at Connection.errorHandler (/app/node_modules/mongodb/lib/core/connection/connection.js:344:7)
+2020-08-24T20:28:39.912618+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:28:39.912619+00:00 app[web.1]: at Connection.emit (events.js:315:20)
+2020-08-24T20:28:39.912619+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:438:12)
+2020-08-24T20:28:39.912619+00:00 app[web.1]: at Object.onceWrapper (events.js:422:26)
+2020-08-24T20:28:39.912619+00:00 app[web.1]: at TLSSocket.emit (events.js:315:20)
+2020-08-24T20:28:39.912620+00:00 app[web.1]: at net.js:674:12
+2020-08-24T20:28:39.912620+00:00 app[web.1]: at TCP.done (_tls_wrap.js:567:7)
+2020-08-24T20:28:46.021954+00:00 heroku[router]: at=info method=GET path="/api/docs/ping" host=editorbackend.herokuapp.com request_id=b5cdc27e-6025-46bd-bebc-d2f67d38510c fwd="73.231.178.171" dyno=web.1 connect=0ms service=8ms status=304 bytes=150 protocol=https
+2020-08-24T20:28:50.441291+00:00 heroku[router]: at=info method=GET path="/api/docs/info" host=editorbackend.herokuapp.com request_id=0ae86539-7556-442b-bd19-7666608f9875 fwd="73.231.178.171" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2020-08-24T20:29:22.635461+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=a047ad68-7888-44a7-a442-84a00b4cdb79 fwd="73.231.178.171" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
+2020-08-24T20:29:26.631739+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/api/docs/conversations" host=editorbackend.herokuapp.com request_id=592f67ed-559c-4d49-9c91-ccc404c77344 fwd="73.231.178.171" dyno=web.1 connect=1ms service=30000ms status=503 bytes=0 protocol=https
